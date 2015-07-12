@@ -6,3 +6,12 @@ Node.jsとか言う、何でJavascriptでサーバーを書かなきゃいけな
 class使うならalterJSのCoffeeScriptやTypeScriptとか思っていたらES6とかいう新バージョンで、普通にクラスも使えるようになるときた。
 ちょっとコレは勉強しない訳には行かなくなったみたいなので、ゴミのようなコードサンプル群を書きつつ、知っておくと良さそうなJavascriptの知識を増やしていく。
 基本的には、クライアントサイドで使える部分を書くつもり。
+
+## 目次
+
+* [モジュール](module) - ファイル単位でモジュール化
+ - [Browserify](module/browserify) - クライアントサイドでもrequireを
+ - [Watchify](module/watchify) - 変更を監視して差分ビルド
+ - [UgrifyJS](module/ugrifyjs) - JSをMinifyしてくれる
+ - [Exorcist](module/exorcist) - Source Mapをはいてくれる
+ - [Gulp](module/gulp) - これらのモジュールをコマンド実行できるタスクに
